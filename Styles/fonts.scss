@@ -1,0 +1,13 @@
+$fontbtnblue: rgba(74, 79, 242, 1);
+
+@mixin font {
+    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-style: normal;
+}
+
+@mixin fontsize18 {
+    font-size: 18px;
+    line-height: 22.59px;
+    letter-spacing: 0px;
+}
