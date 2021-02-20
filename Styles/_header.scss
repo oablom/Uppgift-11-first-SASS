@@ -1,3 +1,5 @@
+@import './fonts';
+
 .header {
     display: flex;
     justify-content: center;
@@ -6,6 +8,7 @@
 .header-container {
     width: 1109px;
     height: 122px;
+    position: absolute;
     display: flex;
     align-items: center;   
     justify-content: space-between;
@@ -18,14 +21,12 @@
         height: 19px;
     }
 
-    .nav-div {
+    .nav-btn {
         display: flex;
         justify-content: space-between;
         width: 163px;
         height: 23px;
+        @include fontsize18();
     }
 
-    nav img {
-        height: 23px;
-        width: 67px;
-    }
+     

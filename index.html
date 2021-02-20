@@ -6,26 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/index.css">
     <link rel="stylesheet" href="Styles/reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8aed0de909.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
+    <!-- <Header> -->
     <header class="header">
         <div class="header-container">
             <div class="logo-div">
-              <img src="Images/Logo.svg" alt="Logo">
-                <!-- <svg  xmlns="http://www.w3.org/2000/svg">
-                    <use xlink:href="Images/Logo.svg#logo"/>
-                </svg> Not working..... -->
+                <a href="index.html">
+                    <img src="Images/Logo.svg" alt="Logo">
+                    <!-- <svg  xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="Images/Logo.svg#logo"/>
+                    </svg> Not working.. Får inte till länken 
+                    så länkar in den såhär istället. Tänker att om jag 
+                fick till länken skulle det se ut som i figma (skuggad text.
+                inte skuggad bild) -->
+                </a>
             </div>
 
-            <div class="nav-div">
-                <nav><img src="Images/Projects.svg" alt="Navigation link: Projects"></nav>
-                <nav><img src="Images/Contact.svg" alt="Navigation link: Contact"></nav>
+            <div class="nav-btn">
+                <nav> 
+                    <a href="Pages/Project.html"> 
+                        <img src="Images/Projects.svg" alt="Navigation link: Projects">
+                    </a>
+                </nav>
+                <nav>
+                    <a href="Pages/Contact.html">
+                        <img src="Images/Contact.svg" alt="Navigation link: Contact">
+                    </a>
+                </nav>
             </div>
         </div>
-    
     </header>
+    <!-- </Header> -->
 
 
     <main class="main">
@@ -203,20 +218,47 @@
                 </div>
                 
             <!-- </Award4> -->
-
-
-            </div>
         </section>
             <!-- </Fourth section> -->
-        
+        </div>
     </main>
 
-
-
+    <!-- <Footer> -->
     <footer class="footer">
-        <div>
+        <div class="footer-container">
+            <div class="logo-div">
+                <a href="index.html">
+                    <img src="Images/Logo.svg" alt="Logo">
+                </a>
+            </div>
 
+            <div class="nav">
+                <div class="nav-btn">
+                    <nav> 
+                        <a href="Pages/Project.html"> 
+                            <img src="Images/Projects.svg" alt="Navigation link: Projects">
+                        </a>
+                    </nav>
+                    <nav>
+                        <a href="Pages/Contact.html">
+                            <img src="Images/Contact.svg" alt="Navigation link: Contact">
+                        </a>
+                    </nav>
+                    </div>
+                <div class="nav-socialmedia"> 
+                    <a href="https://www.basketball.com/">
+                        <img src="Images/dribbble-logo.svg" alt="basketball.com link">
+                    </a>
+                    <a href="http://instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="http://twitter.com/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
         </div>
     </footer>  
+    <!-- </Footer> -->
+    
 </body>
 </html>

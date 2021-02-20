@@ -11,3 +11,9 @@ $fontbtnblue: rgba(74, 79, 242, 1);
     line-height: 22.59px;
     letter-spacing: 0px;
 }
+
+@mixin fontuni($size, $line, $weight) {
+    font-size: $size;
+    line-height: $line;
+    font-weight: $weight;
+}

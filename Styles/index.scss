@@ -1,6 +1,22 @@
 @import './header';
 @import './main';
+@import './main-project';
+@import './main-contact';
 @import './fonts';
+@import './footer';
+
+
+@mixin font {
+    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-style: normal;
+}
+
+@mixin fontsize18 {
+    font-size: 18px;
+    line-height: 22.59px;
+    letter-spacing: 0px;
+}
 
 
 body {
@@ -13,6 +29,9 @@ body {
         @include font();
     }
 }
-
+    .main {
+        display: flex;
+        justify-content: center;
+    }
 
 

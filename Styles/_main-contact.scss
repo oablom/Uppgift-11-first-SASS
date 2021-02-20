@@ -1,0 +1,97 @@
+.contact-main-grid-container{
+    @include maincontainer(194px 312px 120px 570px 89px, 1110px);
+ }
+
+
+    // <first section>
+    .fullset {
+        display: grid;
+        grid-row: 2;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+        .fullset-left {
+            height: 312px;
+        }
+
+            .contact-header {
+                width: 475px;
+                height: 174px;
+                @include fontuni(40px, 55px, bold);
+            }
+
+            .contact-text {
+                margin-top: 22px;
+                width: 445px;
+                height: 100px;
+                @include fontuni(16px, 26px, normal);
+                // p {opacity: 0.8;}
+            }
+
+        .contact-form {
+            height: 291px;
+            width: 475px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        // <Form>
+        .insert {
+            width: 459px;
+            height: 37px;
+            display: flex;
+            align-content: flex-start;
+            position: relative;
+            border-bottom: #D8D8D8 solid 1px;
+            @include fontuni(16px, 20px, bold);
+            
+
+            label {
+               position: absolute;
+                @include fontuni(16px, 20px, bold);
+                cursor: text;
+                position: absolute;
+                width: 100%;
+                height: 31px;
+            }
+
+
+            input {
+                width: 400px;
+                height: 31px;
+                border: transparent;
+                margin-left: 80px;
+                @include fontuni(16px, 20px, bold);
+                outline: none;
+            }
+
+            }
+
+            .btn {
+                width: 125px;
+                height: 50px;
+                background: $fontbtnblue;
+                border: none;
+                
+                p {
+                    color: white;
+                @include fontuni(16px, 20px, bold);
+                }
+            }    
+         // </Form>
+    // </first section>
+
+    // <second section>
+    .map {
+      
+        display: grid;
+        grid-row: 4;
+    }
+
+    // </second section>
+
+    
+
